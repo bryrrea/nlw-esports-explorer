@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-image: url(./assets/bg.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+body * {
+    font-family: "Inter", sans-serif;
+    line-height: 160%; /* or 38px */
+}
+
+header {
+    padding-top: 32px;
+}
+
+header div {
+    display: flex;
+
+    width: 120px;
+    margin: auto;
+    padding: 4px;
+
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 50%;
+
+    transition: transform .3s;
+
+    animation: from_top .5s backwards;
+    animation-delay: .5s; /* Can be writen in animation too */
+}
+
+header div:hover {
+    transform: scale(1.1);
+}
+
+header div img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+
+    display: grid;
+    gap: 24px;
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section div {
+    background-color: #2a2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+section p {
+    letter-spacing: -o.18px;
+    color: #a1a1aa;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    margin-top: 24px;
+}
+
+section ul li {
+    transition: transform .3s;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
+}
+
+.games_list img {
+    width: 90px;
+    border-radius: 8px;
+}
+
+.channel_list img {
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #443e54;
+}
+
+.bottom {
+    animation: from_bottom .5s backwards;
+    animation-delay: .8s;
+}
+
+.left {
+    animation: from_left .5s backwards;
+    animation-delay: 0;
+}
+
+.right {
+    animation: from_right .5s backwards;
+    animation-delay: .5s;
+}
+
+/* Animation */
+
+@keyframes from_top {
+    from{
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes from_left {
+    from{
+        opacity: 0;
+        transform: translateX(-1493px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes from_right {
+    from{
+        opacity: 0;
+        transform: translateX(1493px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes from_bottom {
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/*
+"Display flex diz respeito a uma caixa DENTRO de outra caixa, isto é, a caixa "pai", enquanto o block e o inline tem a ver com as caixas dentro da caixa pai.
+*/ 
