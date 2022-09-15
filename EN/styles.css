@@ -109,17 +109,17 @@ section ul li:hover {
     border: 1px solid #443e54;
 }
 
-.bottom {
+.contact {
     animation: from_bottom .5s backwards;
     animation-delay: .8s;
 }
 
-.left {
+.games {
     animation: from_left .5s backwards;
     animation-delay: 0;
 }
 
-.right {
+.streams {
     animation: from_right .5s backwards;
     animation-delay: .5s;
 }
