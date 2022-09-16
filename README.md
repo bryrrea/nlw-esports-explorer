@@ -41,7 +41,7 @@ My path was "Mission: Explorer". I learnt a lot with the educator [@Mayk Brito](
 Please, let me know what you think about it! Sign in my guestbook and tell me what you think about the project, life, or even to chat. If you want to find me on social media, there are links in my page and in my github profile for it! I want to thanks Rocketseat for this amazing event and opportunity! I hope we can see each other in the future! See ya'! o/  
 
 <p align="center">
-  <a href="https://gist.github.com/bryrrea/51b5492aaf4ab3f8777c48cdafd6c33c">
+  <a href="https://gist.github.com/bryrrea/1f5aa70569ba6c07991feb7a49bcda50">
     <img src="https://user-images.githubusercontent.com/61485514/190542751-4d0b7f63-f025-4894-8624-cbeb25113831.gif" alt="Click here to sign my guest book!">
   </a>
   <p align="center"> Sign in my guestbook!</p>
