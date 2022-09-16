@@ -32,7 +32,7 @@ The figure below shows an example of the project in both versions (landing page 
 My path was "Mission: Explorer". So, on this repo, you will find my project developed during this event. Please, let me know what you think about it!  
 
 <p align="center">
-  <a href="https://gist.github.com/bryrrea/c9da7bda00e7106d3889f4a42ebfa8c1">
+  <a href="https://gist.github.com/bryrrea/51b5492aaf4ab3f8777c48cdafd6c33c">
     <img src="./assets/guestbook.gif" alt="Click here to sign my guest book!">
   </a>
   <p align="center"> Sign in my guestbook!</p>
