@@ -104,9 +104,13 @@ section ul li:hover {
 }
 
 .channel_list img {
-    width: 70px;
+    width: 90px;
     border-radius: 50%;
     border: 1px solid #443e54;
+}
+
+.social_list img {
+    width: 70px;
 }
 
 .contact {
