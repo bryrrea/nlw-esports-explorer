@@ -1,6 +1,6 @@
 # Next Level Week eSports  
 
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fbryrrea%2Fnlw%2F&label=Visitors&labelColor=%23192bc2&countColor=%23449dd1&style=flat)  
+![Visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=bryrrea.nlw-esports-explorer&style=for-the-badge&color=100007&lcolor=2f2732&cache=on)  
 
 This is an online event promoted by Rocketseat, a Brazilian coding school. It's the 10th edition of this hands-on event!  
 Trying to reach everyone, it was offered two paths: for beginners, they offered the "Mission: Explorer", and for those who already knows something about development, they offered the "Mission: Ignite".  
